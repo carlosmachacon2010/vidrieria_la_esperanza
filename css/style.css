@@ -1,0 +1,174 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #d3c8c2;
+    width: 100%;
+}
+
+header .contenedor-encabezado{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+}
+
+header .contenedor-encabezado .logo{
+    
+    width: 150px;
+}
+header .contenedor-encabezado .titulo{
+   color: #460910;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+}
+.contenedor-encabezado{
+   
+    margin: 0 auto 0 auto;
+   
+}
+.contenido-cuerpo{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /*min-height: 70vh;*/
+    text-align: center;
+   
+
+
+}
+.contenido-cuerpo aside{
+    /*width: 20%;*/
+    background-color:#ba1533;
+   
+    
+}
+
+/*.contenido-cuerpo aside .nav{
+    width: 80%; 
+   
+
+}*/
+.contenido-cuerpo aside .nav .lista{
+    width: 100%; 
+    min-height: 100vh;  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+
+}
+.lista-elemento{
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.lista-boton{
+    cursor: pointer; 
+}
+
+
+.lista-boton{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 0.1em;
+    margin: 0 0;
+}
+
+
+
+.lista-boton--click{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    gap: 0.1em;
+    margin: 0 0;
+}
+
+.arrow .lista-flecha{
+    transform: rotate(90deg);
+
+}
+.lista-flecha{
+  margin-left: auto;
+  transition: transform .3s;
+
+}
+.nav-list{
+  color: #d3c8c2;
+  display: block;
+  padding: 12px 0;
+  text-decoration: none;
+
+}
+.lista-adentro .nav-list:hover{
+   background: #460910;
+
+}
+.lista-mostrar{
+   width: 80%;
+   margin-left: auto;
+   list-style: none;
+   border-left: 2px solid #d3c8c2;
+   transition: height .4s;
+   height: 0;
+}
+
+
+
+.nav-list--adentro{
+    border-radius: 8px;
+    padding-left: 1px;
+   text-align: left;
+
+}
+
+
+
+.contenido-cuerpo row{
+    /*width: 80%;*/
+    background-color: #C6C9D0;
+   
+}
+
+.slide{
+   width: 100%;
+    margin: 5% auto;
+   
+    
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 450px;    
+
+}
+.presentacion{
+    width: 80%;
+    height: 600px; 
+    margin: 0 auto;
+    border-style: ridge;
+    
+   
+}
+#titulo{
+    color: #460910;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+#descripcion{
+    color: #460910;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
